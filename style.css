@@ -1,1 +1,83 @@
-body{/*full site color*/background-color:#606060;}/*its for header*/header{background-color:#060606;text-align:center;}h1{color:#ffffff;/*font for header*/font-family:serif;}nav{/*paddding under menu*/padding-bottom:50px;}/*before select the link*/a{color:#f1f1f1;text-decoration:none;padding:20px;}/*after select the link*/a:hover{color:#000000;background-color:red;}/*responsive division*/@media(min-width:500px){div{/*div tag font-family*/font-family:sans-serif;width:30%;height:250px;border:2px solid black;margin:10px;margin-right:5px;display:inline-block;float:left;padding-bottom:50px;text-align:center;}}/*define mid class to change middle division color*/.mid{background-color:#656565;}h2{/*font for title of section*/font-family:monospace;}li{/*changing list style*/border:1px solid white;color:white;background-color:black;}p{/*paragrap styling*/margin-top:10px;text-align:center;border:3px solid;background-color:white;}/*footer menu design*/footer{margin-top:100px;text-align:center;margin-top:15px;clear:both;}.last{margin-top:0px;color:white;background-color:#303030;}/*copyright img resize*/img{width:75px;}
+body{
+/*full site color*/
+background-color:#606060;
+
+}
+/*its for header*/
+header{
+background-color:#060606;
+text-align:center;
+}
+h1{
+color:#ffffff;
+/*font for header*/
+font-family:serif;
+}
+nav{
+/*paddding under menu*/
+padding-bottom:50px;
+}
+/*before select the link*/
+a{
+color:#f1f1f1;
+text-decoration:none;
+padding:20px;
+}
+/*after select the link*/
+a:hover{
+color:#000000;
+background-color:red;
+}
+/*responsive division*/
+@media(min-width:500px){
+div{
+/*div tag font-family*/
+font-family:sans-serif;
+width:30%;
+height:250px;
+border:2px solid black;
+margin:10px;
+margin-right:5px;
+display:inline-block;
+float:left;
+padding-bottom:50px;
+text-align:center;
+}
+}
+/*define mid class to change middle division color*/
+.mid{
+background-color:#656565;
+}
+h2{
+/*font for title of section*/
+font-family:monospace;
+}
+li{
+/*changing list style*/
+border:1px solid white;
+color:white;
+background-color:black;
+}
+p{
+/*paragrap styling*/
+margin-top:10px;
+text-align:center;
+border:3px solid;
+background-color:white;
+}
+/*footer menu design*/
+footer{
+margin-top:100px;
+text-align:center;
+margin-top:15px;
+clear:both;
+}
+.last{
+margin-top:0px;
+color:white;
+background-color:#303030;
+}
+/*copyright img resize*/
+img{
+width:75px;
+}
